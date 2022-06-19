@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save user theme preference</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="settings">
+            <button id="settings-btn"><i class="fa-solid fa-gear"></i></button>
+            <div class="color-box">
+                <h3>Select theme Color</h3>
+                <hr>
+                <ul id="colors">
+                    <li style="background: #5656b2;" data-color="#5656b2" id="color"></li>
+                    <li style="background: #2ecc71;" data-color="#2ecc71" id="color"></li>
+                    <li style="background: #3498db;" data-color="#3498db" id="color"></li>
+                    <li style="background: #9b59b6;" data-color="#9b59b6" id="color"></li>
+                    <li style="background: #34495e;" data-color="#34495e" id="color"></li>
+                    <li style="background: #1abc9c;" data-color="#1abc9c" id="color"></li>
+                    <li style="background: #6D214F;" data-color="#6D214F" id="color"></li>
+                    <li style="background: #ff7979;" data-color="#ff7979" id="color"></li>
+                </ul>
+            </div>
+        </div>
+
+        <main>
+            <div class="main-text">
+                <h1>Theme Preference Saver</h1>
+            </div>
+        </main>
+    </div>
+
+
+    <!-- main javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
